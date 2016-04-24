@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Colors
+Teal color (used for headings and backgrounds) = #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings) = #777777
+Main header background color = #ffffff
+Main header border color = #cccccc
+Footer background color = #666666
+Main content background color = #ffffff
+Main content border color = #dddddd
+Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+Fonts
+Heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;
+All other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+Profile image found on index.html
+Use a picture of yourself. If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder
+Portfolio images
+Placeholder images can be found LoremPixel. Save the images to your images folder
+Social link images (e.g. Github, LinkedIn, and StackOverflow)
+These images can be found on IconFinder. Save the images to your images folder
+Background Images
+The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
+Dimensions
+The width of the entire content area is 960px wide
+The width of the main section content is 650px wide
+The width of the sidebar is 270px
+Pro-tip. Use the Page Ruler extension to measure the size of elements-->*/
+
+
+body {
+	width:960px;
+
+	/*font-size: 24px;
+	line-height: 32px;
+	color: #333;*/
+}
+section {
+	width:650px;
+	/*position: fixed;
+	background: #eee;
+	padding: 40px;
+	text-align: center;
+	margin: 0;*/
+}
+#top {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	/*width: 600px;
+	margin: 0 auto;
+	padding: 20px;*/
+}
+h1 {
+	font-size: 36px;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+#relative {
+	position: relative;
+	background: #eee;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	height: 200px;
+}
+#absolute {
+	width: 250px;
+	position: absolute;
+	background: #999;
+	padding: 20px;
+	bottom: 0;
+	right: -30px;
+	text-align: center;
+}
