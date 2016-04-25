@@ -30,13 +30,15 @@ Pro-tip. Use the Page Ruler extension to measure the size of elements-->*/
 
 
 body {
+	margin-left: 100px;
+	margin-right: 100px;
 	width:960px;
-
+	background-color: #666666;	/*dark grey*/
 	/*font-size: 24px;
 	line-height: 32px;
 	color: #333;*/
 }
-section {
+/*section {
 	width:650px;
 	/*position: fixed;
 	background: #eee;
@@ -45,17 +47,75 @@ section {
 	margin: 0;*/
 }
 #top {
-	background-color: #4aaaa5;
+	/*background-color: #4aaaa5;
 	color: #ffffff;
 	/*width: 600px;
 	margin: 0 auto;
 	padding: 20px;*/
 }
 h1 {
-	font-size: 36px;
-	line-height: 45px;
-	margin-bottom: 20px;
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	width:220px;
+	
+	/*font-size: 36px;
+	/*line-height: 45px;
+	margin-bottom: 20px;*/
 }
+.main-nav a {	
+	text-decoration: none;	/* removes underlines from link, must apply to anchor */
+	font-family: Arial;
+	/*font-style: Arial;*/
+    width:270px;
+}
+/*ul {
+	list-style-type: none;	/* removes bullets from list */
+	/*display: inline;
+	padding: 5px 5px;
+}*/
+
+li {
+	float: right;
+	list-style-type: none;	/* removes bullets from list */
+	display: inline;
+	padding: 5px;
+	margin-top: 40px;
+	
+	
+}
+
+
+.container {
+	clear: both;
+	background-color: #ffffff;
+	/*width: 650px;*/
+}
+#about-me {
+	width: 650px;
+	color: #4aaaa5;
+	margin: 25px;
+}
+#bio-image {
+
+	float:left;
+}
+
+#connect-with-me{
+	float: right;
+	width: 270px;
+
+}
+
+#bottom {
+	clear: both;
+	text-align: center;
+}
+
+
+/*
 p {
 	font-size: 18px;
 	line-height: 28px;
