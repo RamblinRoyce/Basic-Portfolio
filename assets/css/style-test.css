@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Colors
+Teal color (used for headings and backgrounds) = #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings) = #777777
+Main header background color = #ffffff
+Main header border color = #cccccc
+Footer background color = #666666
+Main content background color = #ffffff
+Main content border color = #dddddd
+Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+Fonts
+Heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;
+All other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+Profile image found on index.html
+Use a picture of yourself. If you don't have a picture, you can grab a placeholder image from LoremPixel. Save the images to your images folder
+Portfolio images
+Placeholder images can be found LoremPixel. Save the images to your images folder
+Social link images (e.g. Github, LinkedIn, and StackOverflow)
+These images can be found on IconFinder. Save the images to your images folder
+Background Images
+The background pattern used was found on Subtle Patterns. You can browse through that site and find whichever pattern you like.
+Dimensions
+The width of the entire content area is 960px wide
+The width of the main section content is 650px wide
+The width of the sidebar is 270px
+Pro-tip. Use the Page Ruler extension to measure the size of elements-->*/
+
+
+.top {
+	width: 960px;
+	height: 100px;
+	/*background-color: #4aaaa5;
+	border-bottom-color: #bbbbbb;
+	border-bottom-width: 5px;*/
+	
+}
+.name {
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	/*padding: 20px;*/
+	width:220px;
+
+}
+.main-nav a {	
+	text-decoration: none;	/* removes underlines from link, must apply to anchor */
+	font-family: Arial;
+	/*font-style: Arial;*/
+    width:270px;
+    border-color: #dddddd;
+}
+li {
+	/*position: absolute;*/
+	float: right;
+	list-style-type: none;	/* removes bullets from list */
+	display: inline;
+	padding: 5px;
+	margin-top: 40px;
+}
+.about-border {
+	border-right: 5px solid red;
+}
+.main {
+	
+}
